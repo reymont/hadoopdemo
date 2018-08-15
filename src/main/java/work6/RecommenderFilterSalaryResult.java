@@ -29,15 +29,21 @@ public class RecommenderFilterSalaryResult {
 
 	public static void main(String[] args) throws TasteException, IOException, ParseException {
 		String file = "datafile/job/pv.csv";
+		// 构建数据模型 GenericBooleanPrefDataModel
 		DataModel dataModel = RecommendFactory.buildDataModelNoPref(file);
 
+		// 指定距离（相似度）计算方法
+		// 曼哈顿距离 CityBlockSimilarity
+		// 指定距离最近的 NEIGHBORHOOD_NUM 2 个用户作为邻居
 		RecommenderBuilder rb1 = RecommenderEvaluator.userCityBlock(dataModel);
+		// 对数似然距离 LogLikelihoodSimilarity
 		RecommenderBuilder rb2 = RecommenderEvaluator.itemLoglikelihood(dataModel);
 
 		LongPrimitiveIterator iter = dataModel.getUserIDs();
 		while (iter.hasNext()) {
 			long uid = iter.nextLong();
 			if (uid == 974) {
+				//选择2种不同的算法进行比较
 				System.out.print("userCityBlock    =>");
 				filterSalaryHigherThanAvg8(uid, rb1, dataModel);
 				System.out.print("itemLoglikelihood=>");
@@ -52,6 +58,10 @@ public class RecommenderFilterSalaryResult {
 		double uidAvgSalary = getAverageSalaryByUID("datafile/job/job.csv",uid, dataModel);
 		System.out.println("Average Salary:" + uidAvgSalary);
 		Set<Long> jobids = getFilterSalaryJobID("datafile/job/job.csv",uidAvgSalary);//exclusion list
+        // 加入过滤规则
+        // 如果包含该id则赋值为Double.NaN
+        // 排除掉工资低于平均工资80%的职位
+        // isFiltered(id) ? Double.NaN : originalScore;
 		IDRescorer rescorer = new JobRescorer(jobids);
 		List<RecommendedItem> list = recommenderBuilder.buildRecommender(
 				dataModel).recommend(uid, RECOMMENDER_NUM, rescorer);
@@ -63,6 +73,7 @@ public class RecommenderFilterSalaryResult {
 	public static double getAverageSalaryByUID(String file, long uid,
 			DataModel dataModel) throws IOException, TasteException {
 		PreferenceArray pa = dataModel.getPreferencesFromUser(uid);
+		// 获取用户薪水
 		BufferedReader br = new BufferedReader(new FileReader(new File(file)));
 		double avgSal = 0;
 		int count = 0;
@@ -79,6 +90,7 @@ public class RecommenderFilterSalaryResult {
 				if (st.contains(itemID)) {
 					avgSal += Double.parseDouble(cols[2]);
 					count++;
+					// 输出用户浏览职位的所有薪水信息
 					System.out.println("\tUser:" + uid + "\tviewed item:" + itemID+ "\tSalary:" + Double.parseDouble(cols[2]));
 				}
 			} catch (NumberFormatException e) {
@@ -90,6 +102,7 @@ public class RecommenderFilterSalaryResult {
 	}
 	public static void ShowJobItemList(String filename,List<RecommendedItem> list) throws IOException, ParseException
 	{
+	    // 读取职位信息
 		Hashtable<Long,JobItem> ht =LoadJobTable(filename);
 		if (list.size() > 0) {
             System.out.printf("Job recommendation Item and Salary list:\n\t");
@@ -109,6 +122,8 @@ public class RecommenderFilterSalaryResult {
 		while ((s = br.readLine()) != null) {
 			String[] cols = s.split(",");
 			try {
+			    //如果80%平均薪水高于浏览职位的工资，则添加到jobids
+                //排除掉工资低于平均工资80%的职位
 				if (avgSalary > Double.parseDouble(cols[2])) //Note: this is for exclusion list
 				{
 					jobids.add(Long.parseLong(cols[0]));
