@@ -1,0 +1,14 @@
+Google发布iOS版Chrome 页签同步是亮点
+ 在前几日发布了iOS版浏览器，可用于与。其大小约为12.8MB，版本为19.0.1084.60。
+Chrome与safari相同的用户代理字符串（图片引自ANANDTECH）
+ 或许当iOS版Chrome的消息刚刚出现时，曾有人盼望着可以将Chrome作为iOS设备的本地app，使用其 JavaScript引擎及更新版本的Webkit（535.19）。不幸的是Chrome作为第三方应用仍然只能局限于UIWebView，这意味着它与移动版safari使用同样的渲染引擎。在运行iOS 6 B2的上，我们可以看到Chrome与移动版safari相同的用户代理字符串。
+Safari与iOS版Chrome各项对比（图片引自ANANDTECH）
+ 不过就好的一面来说，iOS版Chrome与版界面几乎相同，可以通过滑动切换标签页，页面的滚动也同样非常流畅。只不过由于UIWebView的限制，iOS版Chrome的亮点没能体现在搜索引擎上，而是体现于登陆账号后与PC版Chrome及其他移动平台之间的同步功能。
+  
+ 相关阅读：
+ ·老爷机iPhone 3GS仍能获iOS 6升级支持
+ ·Html5性能x2 Windows Phone 8仍不及iOS6
+ ·苹果未动黑客先行 iOS 6已有可用谷歌地图
+ ·iOS6终极大PK iPhone5/4S/4操作体验对比
+ ·做更贴心的系统 iOS6/iOS5.1.1有何不同?
+ 

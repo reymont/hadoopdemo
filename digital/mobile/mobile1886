@@ -1,0 +1,10 @@
+最热明星机 Nexus 4 root/解锁工具放出
+ 的这款 4凭借着谷歌的血统、高配低价的诱人性价比显然成为了目前最热的明星机型，甚至连都无法抢过它的风头；不知大家翘首以盼的Nexus 4是否已经到手，反正XDA论坛上的大神们已经抢先发布了针对于它的结合 root/解锁/Recovery等玩机操作于一体的工具包。Nexus 4 root/解锁工具放出 该工具包集一键Root、解锁、安装Recovery等操作于一体，主要实现的功能有： 1、在Windows XP/Vista/7/8环境下，自动安装ADB/Fastboot驱动。 2、一键解锁或恢复 bootloader；一键Root。支持Root 4.2.0 JOP40C的固件版本； 3、从工具箱中直接原版固件。安装Busybox；支持安装一个或多个APK文件； 4、支持备份/恢复一个或所有应用，包括用户数据和内置储存； 5、支持备份 /data/media 文件夹中的elements至； 6、通过ADB，支持完整的系统备份，然后保存为CWM可识别的格式至电脑，之后可以通过CWM恢复； 7、重启Nexus 4进入fastboot模式，或者重启后从fastboot模式进入； 8、在ADB 模式下，重启进入fastboot模式， recovery, Android 或者下载模式； 9、支持直接启动‘.img’文件或者从电脑刷入。可将电脑中文件拖到手机，或直接将手机中文件拖至电脑。 Nexus 4 root/解锁工具放出（图片来自phonearena）
+  
+ 相关阅读：
+ ·4.5英寸双核 LG Optimus LTE不足1700
+ ·四核真的不贵 LG Optimus 4X HD历史新低
+ ·2GHz四核Android5.0 LG Optimus G2曝光
+ ·LG称Nexus 4中LTE芯片无用 不得已安装
+ ·绝高的性价比 LG P940商家价格再报低
+ 

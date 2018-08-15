@@ -1,0 +1,5 @@
+http://tech.sina.com.cn/mobile/n/2010-06-12/10184305440.shtml
+iPad通过PC USB接口充电方法
+iPad通过PC USB接口充电方法
+新浪数码:手机
+　　iPad连接PC充电显示“不在充电”的问题一直困扰着很多网友。iPad自带的充电器是5.1V和2.1A的，而普通PC的USB接口输出参数一般是5V和500毫安，电流不达标，所以iPad通过数据线接入电脑时显示不能充电的(连接苹果电脑可以，因为它的USB输出电流达到了充电标准)。　　华硕推出了一款名为“AiCharger”的程序，可以支持iPad在普通PC上充电，并且不限制必须是华硕主板，其原理是修改了注册表的USB电流相关设置。华硕AiCharger　　下载安装了AiCharger之后，需要重启电脑。之后，任务栏会出现一个类似于充电器的“AsusAiCharger”图标，这时，连接iPad到你的PC，就开始自动充电了。　　AsusAiCharger下载地址

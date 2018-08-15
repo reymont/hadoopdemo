@@ -1,0 +1,5 @@
+1700/2100MHz Nexus 4仅加拿大可用LTE
+ 当初在 4发布的时候，有不少人吐槽其不支持LTE网络，但iFixit的拆解又用事实证明：Nexus 4确实是拥有支持LTE网络的基带芯片——高通MDM9215M。不过目前已经证实：Nexus 4只有在加拿大才可用LTE，因为其支持的频段仅为1700/2100MHz。（拨号盘输入*#*#4636#*#*，即可进入debug模式改变网络模式）
+1700/2100MHz Nexus 4仅加拿大可用LTE（图片来自anandtech）
+1700/2100MHz Nexus 4仅加拿大可用LTE（图片来自gsmarena）
+1700/2100MHz Nexus 4仅加拿大可用LTE（图片来自anandtech）

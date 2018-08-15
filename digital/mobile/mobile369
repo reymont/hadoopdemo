@@ -1,0 +1,14 @@
+谷歌“四儿子”Nexus 4 root工具受欢迎 
+ 相信购买了  4的用户都已经root过了自己的设备。当然，如果你已经对root非常熟悉，你不会认为那是一件多么麻烦的事情。目前，有两种途径可以使消费者获得原生的root权限，一种是通过Android Debug Bridge手动转移root文件，或是依赖于ClockworkMod Recovery工具把root文件压缩为zip格式。
+Nexus 4 root工具受欢迎（图片来源于pocketnow）
+ 虽然LG Nexus 4还没有在中国大陆上市，不过看看国外消费者对这款机器的热情，相信你大概也能猜到LG Nexus 4登陆中国大陆后的受欢迎度了。当然，谷歌“四儿子”能在中国大陆市场取得什么样的销售业绩，我们还是静静等待为好。
+ 关于Android Debug Bridge：Android Debug Bridge是Android sdk里的一个工具, 用这个工具可以直接操作管理Android模拟器或者真实的Andriod设备，能够将本地apk软件安装至模拟器或Android设备。
+ 关于ClockworkMod Recovery：ClockworkMod Recovery提供了一种非常方便的备份和还原ROM的方法，可以直接从上还原rom，所以在很多原生an上被用作刷rom的重要方法，同时对于制作rom者来说也更加方便，可以直接在windows下把ROM打包成zip格式。
+  
+ 相关阅读：
+ ·高端旗舰阅兵 各大品牌四核手机大盘点
+ ·Nexus 4国外售罄后重返 最低仅1862元
+ ·日历BUG被修复 谷歌推送Android 4.2.1
+ ·4.5英寸双核 LG Optimus LTE不足1700
+ ·四核真的不贵 LG Optimus 4X HD历史新低
+ 

@@ -1,0 +1,14 @@
+谷歌向GALAXY Nexus用户推送Android 4.2
+ 根据最新消息，广受关注的 4已经在 Play（谷歌商店）中销售了。GALAXY Nexus和的用户正在陆续接到最新版本的更新推送。目前，只有一小部分的用户报告称获得了OTA更新推送，当然，用户也可以自己动手和安装最新的更新内容。
+谷歌逐步推送Android 4.2（图片来源于androidandme）
+ 现阶段，针对GALAXY Nexus的Android 4.2仍然仅限于yakju和takju代号的GSM制式，关于完整的下载和安装说明，可以参考XDA-developers网站。当然，如果迫不及待想体验Android 4.2的话，也可以从XDA-developers网站上下载并手动安装固件。
+ 关于yakju和takju，个人查阅了部分资料，先给出一个比较权威的解释：
+ GALAXY Nexus分为GSM和CDMA两个版本，其中GSM版在全球发行了不同的版本，这款手机分为两种类型，一种由Google自己进行更新维护，另外一种由进行OTA部署，而第二种占据的比例较大。真正由Google进行升级部署的系统代号为yakju，其他变种包括yakjuxw（西欧某些运营商）、yakjusc（日本）、yajkuzs（中国和香港）等都不是由Google负责更新。takju版本是为Google自己出售的GALAXY Nexus专门准备的一个系统版本，相比yakju唯一的区别就是增加了对电子钱包的支持。除了由三星或者其它运营商负责更新的不同版本GALAXY Nexus之外，Google自己更新的“三儿子”也分为了takju和yakju两种，而takju才是Google最亲的。至于如何鉴定GALAXY Nexus是否为亲生，可以借助工具GN Official Update Checker。
+  
+ 相关阅读：
+ ·不谈硬件性能 "内力"超群智能手机盘点
+ ·最薄手机榜刷新 市售最薄智能机TOP 8
+ ·高端旗舰阅兵 各大品牌四核手机大盘点
+ ·奢华四核"心系天下" 三星W2013评测
+ ·港苹果iPhone5再降 诺基亚900报低价
+ 

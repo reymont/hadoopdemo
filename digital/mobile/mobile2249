@@ -1,0 +1,5 @@
+http://tech.sina.com.cn/mobile/n/2012-06-26/18387312907.shtml
+iOS 6 beta 2不完美越狱教程
+iOS 6 beta 2不完美越狱教程
+新浪数码:手机:iPhone专区:苹果:iPhone:3GS
+　　RedSn0w0.9.13dev2可以越狱刚刚发布的iOS6beta2，不过依然是不完美越狱。由于DevTeam还没有更新可用于beta2越狱的RedSn0w，如要用RedSn0w0.9.13dev2越狱iOS6beta2，我们需要用到上一个测试版的固件。　　注意事项：你必须是一名苹果开发者方可下载iOS6最新测试固件。为越狱beta2，你还需准备iOS6beta1固件。此越狱仅兼容A4芯片设备，也就是iPhone4、第四代iPodtouch和iPhone3GS。本次越狱为不完美越狱。　　第一，安装iOS6beta2。　　第二，将设备引导到DFU模式。　　第三，下载RedSn0w0.9.13dev2，然后运行。　　第四，点击ExtrasSelectIPSW，然后选择iOS6beta1固件。　　第五，回到主菜单屏幕，点击越狱(Jailbreak)。请确保你在InstallSSH前打勾。此次越狱依然不能安装Cydia，非开发者慎行。　　第六，越狱完成后，将设备再次引导到DFU模式，回到ExtrasSelectIPSW，然后再次选择iOS6beta1固件。一旦验证成功后，就从Extras菜单启动，从而进行不完美启动。好了，越狱完成。　　虽然iOS6beta2可越狱，但正如上面所说，此次越狱不直接安装Cydia，所以，即使越狱成功，你还必须学会如何通过SSH安装应用程序到设备，步骤麻烦，不值得普通用户尝试。分享到：苹果iPhone3GS手机相关文章：苹果iPhone3GS参考价：8GB版2888上市时间：2009年7月主屏幕：1600万色TFT显示屏，3.5英寸外形尺寸：115.5×62.1×12.3mm，88cm3照相功能：300万像素CMOS传感器系统：iPhoneiOS推荐不推荐想买观望123456票123456票123456票123456票

@@ -1,0 +1,15 @@
+CM宣布停止对高通S1处理器设备提供支持
+ 随着运行更快、处理能力更高的一些和新机型的不断推出，一些老机型逐渐的失去优势。前两年 2.3系统与高通S1处理器的搭配是很多机型比较有利的配置。但是随着高通S3、S4处理器更强的性能赢得市场以来，高通S1就显得如此落后。最近国际著名的CM团队（CyanogenMod）就正式宣布停止对运行高通S1处理器的提供CM7.x更新支持。
+CM宣布高通S1处理器设备死刑
+ CM团队也给出了理由，目前Android框架不能很好的兼容旧的设备，而且还需要花费大量的时间对深层代码进行编译，即使是这样，也很容易出现谷歌Play Store中APP应用的兼容性问题。
+ 同时，CM团队还补充说，这些旧的设备其实是可以运行ICS（Android 4.0）或Jelly Bean（Android 4.1）系统的，但是运行效果却不是很理想。他们也给出了不会提供更新的运行高通S1处理器（QSD8x50、MSM7x25、MSM7x27和MSM7x27T SoCs）智能名单。
+名单如下：
+谷歌 ：、、Desire CDMA、Droid Eris、Droid 、、Hero、Hero CDMA、Legend、 、、Tattoo ：、Pulse ：、、、Univa ：Galaxy Ace、Galaxy  索尼：、Xperia  魔图罗拉：Cliq、Commtiva Z71、Geeksphone One、Geeksphone Zero中兴：
+  
+ 相关阅读：
+ ·iPhone 5不是一个人!Nexus 4拍照也紫边
+ ·Android五岁 市场份额75%稳居全球第一
+ ·四核+无线充电 LG联手Google发布Nexus 4
+ ·新Nexus设备将发 Google 29日举行发布会
+ ·明媒正娶遭雪藏 谷歌+MOTO手机为何犹豫
+ 

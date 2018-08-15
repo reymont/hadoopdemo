@@ -1,0 +1,5 @@
+http://tech.sina.com.cn/s/mobile/n/2011-11-28/13016393653.shtml
+如何在iPhone 4/3GS上利用Siri进行听写
+如何在iPhone 4/3GS上利用Siri进行听写
+新浪数码:手机
+　　相信很多iPhone4用户一直在等待Siri支持的信息，而黑客已经在iphone4安装运行Siri做了大量工作，现在就可以让iPhone4和iPhone3GS用户免费使用Siri来进行听写。听写是Siri里的一个主要功能。下面就教你怎么用Siri0us来实现这个功能。　　iPhone4的Siri已经被完全移植，而且已经支持iPodtouch4G和iPhone3GS。但也许只有当Phone4S的Sisi向公众发布其端口才可能被开放。如今，开发人员EricDay开发了一个越狱后的插件，可以实现iPhone4和iPhone3GS里Siri的听写功能。第1步：您的iPhone4或3GS需运行iOS5或iOS5.0.1并完成越狱。第2步：如果已经越狱，就打开cydia，然后在管理栏里添加下列源：http://apt.if0rce.com第3步：现在搜索Siri0us并安装它。第4步：大功告成。现在，您可以从iPhone的任何地方开始使用Siri进行听写了。例如打开Notes，触摸"听写"按钮即可使用，如图　　开发者也指出有个bug：如果您的设备保持respring，请不要恢复！要使用iFunBox(iPhone)或Explorer/SSH将/System/Library/PrivateFrameworks/AssistantServices.framework从您的设备中删除。　　经过修复的“Siri0us”适用于所有的iOS5设备：包括iPhone4，iPhone3GS，iPodtouch4G，iPodtouch3G以及iPad1。我们已经在iPhone4，3GS和iPodtouch4G上运用成功，暂时没有问题，但希望大家提供帮助以便更新。更新：部分用户出现验证URL错误，因为服务器上的负荷超限。开发人员已经在为之工作，尽快解决！更新：如果添加以上源无法连接。那就回到第2步添加下列源：http://cydia.myrepospace.com/0xjf/分享到:

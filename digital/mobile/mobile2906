@@ -1,0 +1,5 @@
+http://tech.sina.com.cn/mobile/n/2010-11-02/06261549714.shtml
+iPhone3GS 720P视频录制功能黑客破解
+iPhone3GS 720P视频录制功能黑客破解
+新浪数码:手机
+作者：刘宇航　　我们都知道由于()在硬件方面配备了更为强大的配置，因此iPhone4在功能方面相对于之前的()而言也有了较大幅度的提高，不过这并不意味着在iPhone4上特有的一些功能在iPhone3GS上面就没法实现。例如720P的高清录像就是其中之一。iPhone3GS　　在之前的新闻中我们曾经向大家报道过由于iPhone3GS在处理器方面使用了三星的S5PC100处理器，这款处理器的架构是支持720P视频录制的，只不过苹果方面考虑到摄像头只有300万像素，为了保护其本来就不太够用的电池，因此苹果将这一功能进行了限制。不过近日我们了解到国外的黑客Mike已经成功的解开了3GS的720P摄像功能，目前使用iPhone3GS可以拍摄最高分辨率为1080×800每秒30fps的视频。下面是具体的操作方式。：一、iPhone3GS升级到iOS4.1，同时进行越狱。二、通过Cydia安装软件OpenSSH，重启iPhone。三、iPhone3GS连接上电脑，同时关闭iTunes四、使用WinSCP登陆上iPhone3GS内部文件结构.五、下载文件HDVideo3GS.zip，解压得到四个文件――下载地址六、把N88AP.plist复制到/System/Library/CoreServices/SpringBoard.app/七、把其他文件复制到/System/Library/PrivateFrameworks/Celestial.framework/N88/八、重启iPhone3GS，完成破解720P录制功能。分享到:苹果iPhone3GS参考价：3999元上市时间：2009年7月主屏幕：1600万色TFT显示屏，3.5英寸外形尺寸：115.5×62.1×12.3mm，88cm3照相功能：300万像素CMOS传感器系统：iPhoneiOS已有_COUNT_位用户评论推荐不推荐想买观望123456票123456票123456票123456票
