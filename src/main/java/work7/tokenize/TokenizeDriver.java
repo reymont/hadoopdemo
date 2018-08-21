@@ -1,27 +1,32 @@
 package work7.tokenize;
 
-import java.io.IOException;
-
-import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
+import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
+import org.conan.myhadoop.hdfs.HdfsDAO;
 import work7.tokenize.inputformat.MyInputFormat;
+
+import java.io.IOException;
 
 
 public class TokenizeDriver {
+	public static final String HDFS = "hdfs://172.20.62.34:9000";
 
 	public static void main(String[] args) throws Exception {
 		
 		// set configuration
-		Configuration conf = new Configuration();
-		conf.setLong("mapreduce.input.fileinputformat.split.maxsize", 4000000);    //max size of Split
-		
-		Job job = new Job(conf,"Tokenizer");
+		JobConf conf = new JobConf(TokenizeDriver.class);
+		conf.setJobName("Tokenizde");
+		conf.addResource("classpath:/hadoop/core-site.xml");
+		conf.addResource("classpath:/hadoop/hdfs-site.xml");
+		//conf.addResource("classpath:/hadoop/mapred-site.xml");
+
+		Job job = new Job(conf);
 		job.setJarByClass(TokenizeDriver.class);
 
 	    // specify input format
@@ -33,10 +38,18 @@ public class TokenizeDriver {
 		// specify output types
 		job.setOutputKeyClass(Text.class);
 		job.setOutputValueClass(Text.class);
-		
+
+		String dic = HDFS + "/user/hdfs/";
+		String digital = HDFS + "/user/hdfs/digital";
+
+		HdfsDAO hdfsDao = new HdfsDAO(TokenizeDriver.HDFS, conf);
+		hdfsDao.rmr(digital);
+		hdfsDao.mkdirs(digital);
+		hdfsDao.copyFile("digital/camera/camera3", digital);
+
 		// specify input and output DIRECTORIES 
-		Path inPath = new Path(args[0]);
-		Path outPath = new Path(args[1]);
+		Path inPath = new Path(digital);
+		Path outPath = new Path(HDFS + "/user/hdfs/output");
 		try {                                            //  input path
 			FileSystem fs = inPath.getFileSystem(conf);
 			FileStatus[] stats = fs.listStatus(inPath);

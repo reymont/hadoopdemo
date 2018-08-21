@@ -1,4 +1,4 @@
-package org.conan.myhadoop.work;
+package work5;
 
 import java.io.DataInput;
 import java.io.DataOutput;

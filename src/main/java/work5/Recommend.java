@@ -1,4 +1,4 @@
-package org.conan.myhadoop.work;
+package work5;
 
 
 import java.util.HashMap;

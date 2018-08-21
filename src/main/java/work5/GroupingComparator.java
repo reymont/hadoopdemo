@@ -1,4 +1,4 @@
-package org.conan.myhadoop.work;
+package work5;
 
 import org.apache.hadoop.io.RawComparator;
 import org.apache.hadoop.io.WritableComparator;

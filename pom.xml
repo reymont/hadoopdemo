@@ -12,35 +12,36 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mahout.version>0.6</mahout.version>
 
-        <lucene.version>3.1.0</lucene.version>
+        <!--<lucene.version>3.2.0</lucene.version>-->
+        <lucene.version>2.2.0</lucene.version>
         <solr.version>4.0.0</solr.version>
         <httpclient.version>4.1.2</httpclient.version>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.apache.mahout</groupId>
-            <artifactId>mahout-core</artifactId>
-            <version>${mahout.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.mahout</groupId>
-            <artifactId>mahout-integration</artifactId>
-            <version>${mahout.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.mortbay.jetty</groupId>
-                    <artifactId>jetty</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.apache.cassandra</groupId>
-                    <artifactId>cassandra-all</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>me.prettyprint</groupId>
-                    <artifactId>hector-core</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.mahout</groupId>-->
+            <!--<artifactId>mahout-core</artifactId>-->
+            <!--<version>${mahout.version}</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.apache.mahout</groupId>-->
+            <!--<artifactId>mahout-integration</artifactId>-->
+            <!--<version>${mahout.version}</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.mortbay.jetty</groupId>-->
+                    <!--<artifactId>jetty</artifactId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.apache.cassandra</groupId>-->
+                    <!--<artifactId>cassandra-all</artifactId>-->
+                <!--</exclusion>-->
+                <!--<exclusion>-->
+                    <!--<groupId>me.prettyprint</groupId>-->
+                    <!--<artifactId>hector-core</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
         <dependency>
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
@@ -95,27 +96,7 @@
         </dependency>
         <dependency>
             <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-facet</artifactId>
-            <version>${lucene.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-analyzers-common</artifactId>
-            <version>${lucene.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-grouping</artifactId>
-            <version>${lucene.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queries</artifactId>
-            <version>${lucene.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.lucene</groupId>
-            <artifactId>lucene-join</artifactId>
             <version>${lucene.version}</version>
         </dependency>
         <dependency>

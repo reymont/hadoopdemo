@@ -1,4 +1,4 @@
-package org.conan.myhadoop.work;
+package work5;
 
 import java.io.IOException;
 import java.util.Map;
@@ -12,7 +12,7 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.Mapper;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
-import org.conan.myhadoop.work.hdfs.HdfsDAO;
+import work5.hdfs.HdfsDAO;
 
 public class Step3 {
 	

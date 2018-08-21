@@ -4,6 +4,6 @@
 <configuration>
   <property>
     <name>mapred.job.tracker</name>
-    <value>hdfs://localhost:9001</value>
+    <value>hdfs://172.20.62.34:9001</value>
   </property>
 </configuration>

@@ -1,4 +1,4 @@
-package org.conan.myhadoop.work.hdfs;
+package work5.hdfs;
 
 
 import java.io.IOException;
