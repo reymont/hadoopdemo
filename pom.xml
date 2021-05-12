@@ -14,7 +14,7 @@
 
         <!--<lucene.version>3.2.0</lucene.version>-->
         <lucene.version>2.2.0</lucene.version>
-        <solr.version>4.0.0</solr.version>
+        <solr.version>8.8.2</solr.version>
         <httpclient.version>4.1.2</httpclient.version>
     </properties>
     <dependencies>
